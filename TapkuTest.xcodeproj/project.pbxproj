@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B69414C0142486F3000C357F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69414BF142486F3000C357F /* UIKit.framework */; };
+		B69414C2142486F3000C357F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69414C1142486F3000C357F /* Foundation.framework */; };
+		B69414C4142486F3000C357F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69414C3142486F3000C357F /* CoreGraphics.framework */; };
+		B69414CA142486F4000C357F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69414C8142486F4000C357F /* InfoPlist.strings */; };
+		B69414CD142486F4000C357F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B69414CC142486F4000C357F /* main.m */; };
+		B69414D0142486F4000C357F /* TapkuTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B69414CF142486F4000C357F /* TapkuTestAppDelegate.m */; };
+		B69414D3142486F4000C357F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69414D1142486F4000C357F /* MainWindow.xib */; };
+		B69414D6142486F4000C357F /* TapkuTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69414D5142486F4000C357F /* TapkuTestViewController.m */; };
+		B69414D9142486F4000C357F /* TapkuTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69414D7142486F4000C357F /* TapkuTestViewController.xib */; };
+		B69414EE1424887D000C357F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69414ED1424887D000C357F /* QuartzCore.framework */; };
+		B69414F014248887000C357F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69414EF14248887000C357F /* MapKit.framework */; };
+		B69414F214248927000C357F /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B69414F114248927000C357F /* TapkuLibrary.bundle */; };
+		B694150814248C31000C357F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B694150714248C31000C357F /* EventKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B69414E714248739000C357F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		B69414E914248739000C357F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		B69414EB1424875A000C357F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B69414BB142486F3000C357F /* TapkuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapkuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69414BF142486F3000C357F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B69414C1142486F3000C357F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B69414C3142486F3000C357F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B69414C7142486F4000C357F /* TapkuTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapkuTest-Info.plist"; sourceTree = "<group>"; };
+		B69414C9142486F4000C357F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B69414CB142486F4000C357F /* TapkuTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapkuTest-Prefix.pch"; sourceTree = "<group>"; };
+		B69414CC142486F4000C357F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B69414CE142486F4000C357F /* TapkuTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapkuTestAppDelegate.h; sourceTree = "<group>"; };
+		B69414CF142486F4000C357F /* TapkuTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapkuTestAppDelegate.m; sourceTree = "<group>"; };
+		B69414D2142486F4000C357F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B69414D4142486F4000C357F /* TapkuTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapkuTestViewController.h; sourceTree = "<group>"; };
+		B69414D5142486F4000C357F /* TapkuTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapkuTestViewController.m; sourceTree = "<group>"; };
+		B69414D8142486F4000C357F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TapkuTestViewController.xib; sourceTree = "<group>"; };
+		B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		B69414ED1424887D000C357F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B69414EF14248887000C357F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B69414F114248927000C357F /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = src/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		B694150714248C31000C357F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B69414B8142486F3000C357F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694150814248C31000C357F /* EventKit.framework in Frameworks */,
+				B69414F014248887000C357F /* MapKit.framework in Frameworks */,
+				B69414EE1424887D000C357F /* QuartzCore.framework in Frameworks */,
+				B69414C0142486F3000C357F /* UIKit.framework in Frameworks */,
+				B69414C2142486F3000C357F /* Foundation.framework in Frameworks */,
+				B69414C4142486F3000C357F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B69414B0142486F3000C357F = {
+			isa = PBXGroup;
+			children = (
+				B69414F114248927000C357F /* TapkuLibrary.bundle */,
+				B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */,
+				B69414C5142486F4000C357F /* TapkuTest */,
+				B69414BE142486F3000C357F /* Frameworks */,
+				B69414BC142486F3000C357F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B69414BC142486F3000C357F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69414BB142486F3000C357F /* TapkuTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69414BE142486F3000C357F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B694150714248C31000C357F /* EventKit.framework */,
+				B69414EF14248887000C357F /* MapKit.framework */,
+				B69414ED1424887D000C357F /* QuartzCore.framework */,
+				B69414BF142486F3000C357F /* UIKit.framework */,
+				B69414C1142486F3000C357F /* Foundation.framework */,
+				B69414C3142486F3000C357F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B69414C5142486F4000C357F /* TapkuTest */ = {
+			isa = PBXGroup;
+			children = (
+				B69414CE142486F4000C357F /* TapkuTestAppDelegate.h */,
+				B69414CF142486F4000C357F /* TapkuTestAppDelegate.m */,
+				B69414D1142486F4000C357F /* MainWindow.xib */,
+				B69414D4142486F4000C357F /* TapkuTestViewController.h */,
+				B69414D5142486F4000C357F /* TapkuTestViewController.m */,
+				B69414D7142486F4000C357F /* TapkuTestViewController.xib */,
+				B69414C6142486F4000C357F /* Supporting Files */,
+			);
+			path = TapkuTest;
+			sourceTree = "<group>";
+		};
+		B69414C6142486F4000C357F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B69414C7142486F4000C357F /* TapkuTest-Info.plist */,
+				B69414C8142486F4000C357F /* InfoPlist.strings */,
+				B69414CB142486F4000C357F /* TapkuTest-Prefix.pch */,
+				B69414CC142486F4000C357F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B69414E014248738000C357F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69414E814248739000C357F /* libTapkuLibrary.a */,
+				B69414EA14248739000C357F /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B69414BA142486F3000C357F /* TapkuTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69414DC142486F4000C357F /* Build configuration list for PBXNativeTarget "TapkuTest" */;
+			buildPhases = (
+				B69414B7142486F3000C357F /* Sources */,
+				B69414B8142486F3000C357F /* Frameworks */,
+				B69414B9142486F3000C357F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69414EC1424875A000C357F /* PBXTargetDependency */,
+			);
+			name = TapkuTest;
+			productName = TapkuTest;
+			productReference = B69414BB142486F3000C357F /* TapkuTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B69414B2142486F3000C357F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B69414B5142486F3000C357F /* Build configuration list for PBXProject "TapkuTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B69414B0142486F3000C357F;
+			productRefGroup = B69414BC142486F3000C357F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B69414E014248738000C357F /* Products */;
+					ProjectRef = B69414DF14248738000C357F /* TapkuLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B69414BA142486F3000C357F /* TapkuTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B69414E814248739000C357F /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = B69414E714248739000C357F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B69414EA14248739000C357F /* LogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.octest;
+			remoteRef = B69414E914248739000C357F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B69414B9142486F3000C357F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69414CA142486F4000C357F /* InfoPlist.strings in Resources */,
+				B69414D3142486F4000C357F /* MainWindow.xib in Resources */,
+				B69414D9142486F4000C357F /* TapkuTestViewController.xib in Resources */,
+				B69414F214248927000C357F /* TapkuLibrary.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B69414B7142486F3000C357F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69414CD142486F4000C357F /* main.m in Sources */,
+				B69414D0142486F4000C357F /* TapkuTestAppDelegate.m in Sources */,
+				B69414D6142486F4000C357F /* TapkuTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B69414EC1424875A000C357F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = B69414EB1424875A000C357F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B69414C8142486F4000C357F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69414C9142486F4000C357F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B69414D1142486F4000C357F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69414D2142486F4000C357F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B69414D7142486F4000C357F /* TapkuTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69414D8142486F4000C357F /* en */,
+			);
+			name = TapkuTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B69414DA142486F4000C357F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B69414DB142486F4000C357F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B69414DD142486F4000C357F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapkuTest/TapkuTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/src";
+				INFOPLIST_FILE = "TapkuTest/TapkuTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lTapkuLibrary",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B69414DE142486F4000C357F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapkuTest/TapkuTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/src";
+				INFOPLIST_FILE = "TapkuTest/TapkuTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lTapkuLibrary",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B69414B5142486F3000C357F /* Build configuration list for PBXProject "TapkuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69414DA142486F4000C357F /* Debug */,
+				B69414DB142486F4000C357F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69414DC142486F4000C357F /* Build configuration list for PBXNativeTarget "TapkuTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69414DD142486F4000C357F /* Debug */,
+				B69414DE142486F4000C357F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B69414B2142486F3000C357F /* Project object */;
+}
